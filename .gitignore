@@ -1,0 +1,6 @@
+
+*.pyc
+.ipynb_checkpoints/
+.vs
+\nn
+\data

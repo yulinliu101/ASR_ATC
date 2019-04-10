@@ -1,0 +1,14 @@
+# train from scratch
+python train.py --config configs/neural_network.ini --train_or_predict True
+
+# train from restored model
+python train.py --config configs/neural_network.ini --train_or_predict True --name develop_BiRNN_20180321-202929/model.ckpt-149 --train_from_model True
+
+# prediction
+python train.py --config configs/neural_network.ini --train_or_predict False --name develop_BiRNN_20180321-202929/model.ckpt-149 --test_data data/test/
+
+# tensorboard
+tensorboard --logdir=nn/summary
+
+# develop_BiRNN_20180321-202929 is currently the best one
+
