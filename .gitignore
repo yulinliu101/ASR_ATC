@@ -1,5 +1,6 @@
 
 *.pyc
+*.ipynb
 .ipynb_checkpoints/
 .vs
 \nn
